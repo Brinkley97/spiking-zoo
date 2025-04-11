@@ -1,3 +1,5 @@
+from model_base import SNNModel
+
 class SpikingResNet(SNNModel):
     def load_model(self):
         # Load the Spiking ResNet model from the specified path

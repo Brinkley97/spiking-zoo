@@ -1,3 +1,5 @@
+from model_base import SNNModel
+
 class SNNModelManager:
     def __init__(self):
         self.models = {}
