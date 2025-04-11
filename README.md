@@ -32,5 +32,10 @@ These models are managed through a centralized `SNNModelManager` class, which ca
   ├── load_cifar.py       # Main notebook to load and visualize CIFAR10 dataset
 ├── requirements.txt      # Contains the dependencies needed to run code
 └── README.md             # Project documentation
+```
+
+## Installation
+
+Certain dependencies are required to run this library. Install them with conda using: `conda create --name <env> --file requirements.txt` 
 
 
