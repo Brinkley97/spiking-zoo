@@ -27,6 +27,9 @@ These models are managed through a centralized `SNNModelManager` class, which ca
 ├── spiking_resnet.py     # Contains the SpikingResNet class
 ├── spiking_vgg.py        # Contains the SpikingVGG class
 ├── main.py               # Main script to run and test models
+├── data_loader.py        # Contains the base code for loading data
+├── demos                 # Main folder to run and test our library
+  ├── load_cifar.py       # Main notebook to load and visualize CIFAR10 dataset
 └── README.md             # Project documentation
 
 
