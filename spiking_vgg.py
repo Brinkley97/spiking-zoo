@@ -1,3 +1,5 @@
+from model_base import SNNModel
+
 class SpikingVGG(SNNModel):
     def load_model(self):
         print(f"Loading Spiking VGG model from {self.model_path}")
