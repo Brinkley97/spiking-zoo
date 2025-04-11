@@ -30,6 +30,7 @@ These models are managed through a centralized `SNNModelManager` class, which ca
 ├── data_loader.py        # Contains the base code for loading data
 ├── demos                 # Main folder to run and test our library
   ├── load_cifar.py       # Main notebook to load and visualize CIFAR10 dataset
+├── requirements.txt      # Contains the dependencies needed to run code
 └── README.md             # Project documentation
 
 
