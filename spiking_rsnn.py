@@ -32,7 +32,7 @@ class RecurrentSNN(SNNModel):
         return output_data
 
 # Define Network
-class Net(SNNModel, nn.Module):
+class Net(nn.Module):
     def __init__(self, num_inputs, num_hidden, num_outputs, beta):
         super().__init__()
 
