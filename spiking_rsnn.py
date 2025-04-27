@@ -34,7 +34,7 @@ class RecurrentSNN(SNNModel):
 # Define Network
 class Net(nn.Module):
     def __init__(self, num_inputs, num_hidden, num_outputs, beta):
-        super().__init__()
+        super().__init__(num_inputs, num_hidden, num_outputs, beta)
 
         # Initialize layers
         self.fc1 = nn.Linear(num_inputs, num_hidden)
